@@ -1,0 +1,7 @@
+<h1> <%= @current_team[0] %> </h1>
+
+<ul>
+  <% @current_team[1].each do |k,v| %>
+    <li><%= "#{k}: #{v}" %></li>
+  <% end %>
+</ul>
